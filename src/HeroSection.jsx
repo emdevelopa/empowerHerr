@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Navbar from "./Navbar";
+import MobileNav from "./mobileNav";
 
 export default function HeroSection({menuOpen}) {
 
@@ -18,32 +19,6 @@ export default function HeroSection({menuOpen}) {
 
       {/* Overlay */}
       <div className="relative z-10 flex flex-col h-full">
-        {/* Navbar */}
-        {/* <Navbar setMenuOpen={setMenuOpen} menuOpen={menuOpen} /> */}
-
-        {/* Mobile Menu */}
-        {menuOpen && (
-          <div className="absolute top-0 left-0 w-full bg-black text-white p-4 flex flex-col items-center space-y-4 md:hidden">
-            <a href="/" className="hover:text-pink-400">
-              Home
-            </a>
-            <a href="#about" className="hover:text-pink-400">
-              About
-            </a>
-            <a href="#impact" className="hover:text-pink-400">
-              Impact
-            </a>
-            <a href="/blog" className="hover:text-pink-400">
-              Blog
-            </a>
-            <a href="#" className="hover:text-pink-400">
-              Contact
-            </a>
-            <button className="bg-white text-black px-4 py-2 rounded-lg shadow-md hover:bg-gray-200">
-              Donate
-            </button>
-          </div>
-        )}
 
         {/* Hero Text */}
         <div className="flex flex-col items-center justify-center flex-grow text-center px-6 text-white">

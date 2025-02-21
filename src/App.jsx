@@ -6,6 +6,7 @@ import Footer from './footer';
 import BlogPage from './BlogPage';
 import Navbar from './Navbar';
 import { Menu, X } from "lucide-react";
+import Contact from './contact';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home menuOpen={menuOpen} />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/contact" element={<Contact />} />
           {/* <Route path="/register" element={<Register />} /> */}
           {/* <Route path="/signin" element={<SignIn />} /> */}
           {/* <Route path="/user/Dashboard" element={<UserPage />} /> */}

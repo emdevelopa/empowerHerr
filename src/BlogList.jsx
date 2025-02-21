@@ -5,7 +5,7 @@ const BlogList = ({ blogs, onSelect }) => {
     return (
       <>
         {/* <Navbar /> */}
-        <div className="relative w-full h-64">
+        <div className="relative w-full h-[60vh]">
           {/* Background Image */}
           <img
             src="https://images.unsplash.com/photo-1583971663176-dd7180de1b76?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVtYWxlJTIwZW1wb3dlcm1lbnR8ZW58MHx8MHx8fDA%3D"
@@ -13,8 +13,8 @@ const BlogList = ({ blogs, onSelect }) => {
             className="w-full h-full object-cover"
           />
           {/* Overlay */}
-          <div className="absolute inset-0 bg-[#000000c3] bg-opacity-50 flex flex-col justify-center items-start px-10 text-white">
-            {/* <h1 className="text-4xl font-bold">Blog Grid</h1> */}
+          <div className="absolute inset-0 bg-[#000000c3] bg-opacity-50 flex flex-col justify-center items-start px-10 text-white ">
+            <h1 className="text-4xl font-bold">Blog</h1>
             <p className="text-lg mt-2">
               Help today because tomorrow you may be the one who needs more
               helping!
