@@ -70,7 +70,7 @@ const Contact = () => {
             </div>
 
             {/* Right Section - Form */}
-            <div className="md:w-1/2 bg-white p-8 shadow-md rounded-lg">
+            {/* <div className="md:w-1/2 bg-white p-8 shadow-md rounded-lg"> */}
               {/* <form className="space-y-4">
                 <div>
                   <label className="block text-gray-700 font-medium">
@@ -118,7 +118,7 @@ const Contact = () => {
                   Send Message
                 </button>
               </form> */}
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </>
