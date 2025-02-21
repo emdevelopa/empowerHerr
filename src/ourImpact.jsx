@@ -37,7 +37,7 @@ export default function Impact() {
         </div>
 
         <div className="bg-pink-600 text-white p-8 rounded-lg mt-12 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-[34px] font-bold font-semibold text-center md:text-left">
+          <div className="text-[34px] font-bold  text-center md:text-left">
             We can create a better tomorrow
             <p className="text-sm font-normal mt-2">
               Every dollar counts and helps us bring hope and essential

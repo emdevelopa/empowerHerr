@@ -4,16 +4,16 @@ import HeroSection from "./HeroSection";
 import ImpactSection from "./ImpactSection";
 import Impact from "./ourImpact";
 
- function Home() {
-  return (
-    <div>
-          <HeroSection />
-          <ImpactSection />
-          <AboutUsSection />
-          <Impact />
-          <StoriesSection/>
-    </div>
-  );
-}
+ function Home({ menuOpen }) {
+   return (
+     <div>
+       <HeroSection menuOpen={menuOpen} />
+       <ImpactSection />
+       <AboutUsSection />
+       <Impact />
+       <StoriesSection />
+     </div>
+   );
+ }
 
 export default Home;

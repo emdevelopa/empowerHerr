@@ -5,16 +5,17 @@ import Home from "./Home";
 import Footer from './footer';
 import BlogPage from './BlogPage';
 import Navbar from './Navbar';
+import { Menu, X } from "lucide-react";
 
 function App() {
-  const [count, setCount] = useState(0)
 
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <Router>
       <main className="flex-grow">
-        <Navbar/>
+        <Navbar setMenuOpen={setMenuOpen} menuOpen={menuOpen} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home menuOpen={menuOpen} />} />
           <Route path="/blog" element={<BlogPage />} />
           {/* <Route path="/register" element={<Register />} /> */}
           {/* <Route path="/signin" element={<SignIn />} /> */}

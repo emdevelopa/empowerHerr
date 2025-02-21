@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Navbar from "./Navbar";
 
-export default function HeroSection() {
-  const [menuOpen, setMenuOpen] = useState(false);
+export default function HeroSection({menuOpen}) {
+
 
   return (
     <div className="relative w-full h-screen bg-black">
@@ -23,7 +23,7 @@ export default function HeroSection() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="absolute top-16 left-0 w-full bg-black text-white p-4 flex flex-col items-center space-y-4 md:hidden">
+          <div className="absolute top-0 left-0 w-full bg-black text-white p-4 flex flex-col items-center space-y-4 md:hidden">
             <a href="/" className="hover:text-pink-400">
               Home
             </a>
