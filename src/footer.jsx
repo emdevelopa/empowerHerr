@@ -7,13 +7,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Charity Logo & Description */}
           <div>
-            <div className="flex items-center space-x-2">
-              <img
-                src="/images/logo.png"
-                alt="Charity Logo"
-                className="w-8 h-8"
-              />
-              <h2 className="text-xl font-semibold text-[#2E3A24]">Charity</h2>
+            <div className="text-2xl font-bold flex items-center">
+              <span className="text-black">🌸EmpowerHer</span>
+              {/* <img src={logo} alt="swsw" /> */}
             </div>
             <p className="text-[#5F6D4E] mt-3">
               The power of giving: Support a cause and make a difference through

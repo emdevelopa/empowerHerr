@@ -1,10 +1,12 @@
 import { Menu, X } from "lucide-react";
+// import logo from "./assets/logo.svg"; 
 
 export default function Navbar({setMenuOpen, menuOpen}) {
   return (
     <nav className="flex justify-between items-center px-6 md:px-12 py-4 bg-black text-white">
       <div className="text-2xl font-bold flex items-center">
-        <span className="text-white">🌸 Women Rise</span>
+        <span className="text-white">🌸EmpowerHer</span>
+        {/* <img src={logo} alt="swsw" /> */}
       </div>
       {/* Desktop Nav */}
       <ul className="hidden md:flex space-x-6">
@@ -12,7 +14,7 @@ export default function Navbar({setMenuOpen, menuOpen}) {
           <a href="/">Home</a>
         </li>
         <li className="hover:text-pink-400 cursor-pointer">
-          <a href="">About</a>
+          <a href="#about">About</a>
         </li>
         <li className="hover:text-pink-400 cursor-pointer">
           <a href="#impact">Impact</a>

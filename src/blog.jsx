@@ -27,7 +27,7 @@ export default function TransformationStories() {
             <h3 className="text-xl font-semibold text-[#2E3A24]">
               The Special One
             </h3>
-            <p className="text-[#bef27e] mt-2">
+            <p className="text-[#000000a8] mt-2">
               Join our non-profit organisation to help create a brighter future
               for those in need. Every donation counts towards making a
               difference in the lives of those less fortunate.
@@ -52,7 +52,7 @@ export default function TransformationStories() {
             <h3 className="text-xl font-semibold text-[#2E3A24]">
               A Better Education for Everyone
             </h3>
-            <p className="text-[#5F6D4E] mt-2">
+            <p className="text-[#000000a8] mt-2">
               Our non-profit organisation is dedicated to improving access to
               education for all. With your support, we can help provide the
               resources and opportunities needed for success.

@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
-p {
-  /* color: #000000c3; */
+
+body {
+ font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+
 }

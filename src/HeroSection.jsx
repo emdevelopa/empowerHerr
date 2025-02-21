@@ -24,17 +24,17 @@ export default function HeroSection() {
         {/* Mobile Menu */}
         {menuOpen && (
           <div className="absolute top-16 left-0 w-full bg-black text-white p-4 flex flex-col items-center space-y-4 md:hidden">
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               Home
             </a>
-            <a href="#" className="hover:text-pink-400">
+            <a href="#about" className="hover:text-pink-400">
               About
             </a>
-            <a href="#" className="hover:text-pink-400">
-              Programs
+            <a href="#impact" className="hover:text-pink-400">
+              Impact
             </a>
-            <a href="#" className="hover:text-pink-400">
-              Stories
+            <a href="/blog" className="hover:text-pink-400">
+              Blog
             </a>
             <a href="#" className="hover:text-pink-400">
               Contact

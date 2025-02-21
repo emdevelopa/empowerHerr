@@ -1,6 +1,6 @@
 export default function Impact() {
   return (
-    <div className="bg-pink-50 px-6 py-16 lg:px-24">
+    <div className="bg-pink-50 px-6 pb-16 pt-1 lg:px-24">
       {/* Impact Section */}
       <div className="max-w-6xl mx-auto text-center mt-20" id="impact">
         <h3 className="text-sm uppercase tracking-wide text-gray-600">
