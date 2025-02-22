@@ -2,14 +2,14 @@ import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-pink-50 py-12 border-t border-[#C4C4C4]">
+    <footer className="bg-green-50 py-12 border-t border-[#C4C4C4]">
       <div className="container mx-auto px-4 md:px-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Charity Logo & Description */}
           <div>
             <div className="text-2xl font-bold flex items-center">
-              <span className="text-black">🌸EmpowerHer</span>
-              {/* <img src={logo} alt="swsw" /> */}
+              {/* <span className="text-black">🌸EmpowerHer</span> */}
+              <img src="logo.jpg" alt="swsw" className="w-[4em] rounded-2xl" />
             </div>
             <p className="text-[#5F6D4E] mt-3">
               The power of giving: Support a cause and make a difference through
@@ -19,43 +19,64 @@ export default function Footer() {
 
           {/* About Us */}
           <div>
-            <h3 className="text-lg font-semibold text-[#2E3A24]">About Us</h3>
+            {/* <h3 className="text-lg font-semibold text-[#2E3A24]">About Us</h3> */}
             <ul className="mt-3 space-y-2 text-[#5F6D4E]">
               <li>
-                <a href="#">Our History</a>
+                <a href="/" className="hover:text-green-700 hover:underline">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#">What We Believe</a>
+                <a href="/about" className="hover:text-green-700 hover:underline">
+                  About
+                </a>
               </li>
               <li>
-                <a href="#">Our Programs</a>
+                <a href="/impact" className="hover:text-green-700 hover:underline">
+                  Impact
+                </a>
               </li>
               <li>
-                <a href="#">Partners</a>
+                <a href="/blog" className="hover:text-green-700 hover:underline">
+                  Blog
+                </a>
+              </li>{" "}
+              <li>
+                <a href="/contact" className="hover:text-green-700 hover:underline">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
 
           {/* Ways to Give */}
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold text-[#2E3A24]">
               Ways To Give
             </h3>
             <ul className="mt-3 space-y-2 text-[#5F6D4E]">
               <li>
-                <a href="#">Fundraise</a>
+                <a href="#" className="hover:text-green-700 hover:underline">
+                  Fundraise
+                </a>
               </li>
               <li>
-                <a href="#">Planned Giving</a>
+                <a href="#" className="hover:text-green-700 hover:underline">
+                  Planned Giving
+                </a>
               </li>
               <li>
-                <a href="#">Brand Partnership</a>
+                <a href="#" className="hover:text-green-700 hover:underline">
+                  Brand Partnership
+                </a>
               </li>
               <li>
-                <a href="#">Legacy Giving</a>
+                <a href="#" className="hover:text-green-700 hover:underline">
+                  Legacy Giving
+                </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div>
@@ -66,8 +87,11 @@ export default function Footer() {
               1234 Thornridge Cir. Syracuse, <br />
               Connecticut 56789 <br />
               (406) 555-0121 <br />
-              <a href="mailto:mail@example.com" className="text-[#2E3A24]">
-                mail@example.com
+              <a
+                href="mailto:sylvieakwenmalo@gmail.com"
+                className="text-[#2E3A24] hover:text-green-700 hover:underline"
+              >
+                sylvieakwenmalo@gmail.com
               </a>
             </p>
           </div>
@@ -79,16 +103,28 @@ export default function Footer() {
 
           {/* Social Icons */}
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-[#2E3A24] hover:text-black">
+            <a
+              href="#"
+              className="text-[#2E3A24] hover:text-green-700 hover:underline"
+            >
               <Facebook size={18} />
             </a>
-            <a href="#" className="text-[#2E3A24] hover:text-black">
+            <a
+              href="#"
+              className="text-[#2E3A24] hover:text-green-700 hover:underline"
+            >
               <Twitter size={18} />
             </a>
-            <a href="#" className="text-[#2E3A24] hover:text-black">
+            <a
+              href="#"
+              className="text-[#2E3A24] hover:text-green-700 hover:underline"
+            >
               <Instagram size={18} />
             </a>
-            <a href="#" className="text-[#2E3A24] hover:text-black">
+            <a
+              href="#"
+              className="text-[#2E3A24] hover:text-green-700 hover:underline"
+            >
               <Youtube size={18} />
             </a>
           </div>

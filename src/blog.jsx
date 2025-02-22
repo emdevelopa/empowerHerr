@@ -1,43 +1,38 @@
 export default function TransformationStories() {
-    
   return (
-    <section className="bg-[#f9faef] py-16 px-4 md:px-16">
+    <section className="bg-[#ECF5E4] py-16 px-4 md:px-16">
       <div className="text-center">
-        <h2 className="text-4xl font-bold text-pink-900">
-          Inspiring tales of transformation
+        <h2 className="text-4xl font-bold text-green-900">
+          Inspiring Tales of Transformation
         </h2>
-        <p className="text-lg text-[#5F6D4E] mt-3">
-          Get inspired by the remarkable stories of transformation through our
-          non-profit organization. Join us in making a positive impact today.
+        <p className="text-lg text-green-700 mt-3">
+          Discover powerful stories of resilience and empowerment. Through our
+          initiatives, we advocate for the health, education, and rights of
+          women and children, ensuring a better future for all.
         </p>
       </div>
 
       <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* First Story */}
-        <div
-          className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center"
-          // onClick={() => onSelect(blog)}
-        >
+        <div className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center">
           <img
             src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-06.jpg"
-            alt="The Special One"
+            alt="Providing a Better Life for Vulnerable Children"
             className="w-full h-64 object-cover rounded-xl"
           />
           <div className="mt-4 text-center">
-            <h3 className="text-xl font-semibold text-[#2E3A24]">
-              The Special One
+            <h3 className="text-xl font-semibold text-green-900">
+              A Brighter Future for Every Child
             </h3>
-            <p className="text-[#000000a8] mt-2">
-              Join our non-profit organisation to help create a brighter future
-              for those in need. Every donation counts towards making a
-              difference in the lives of those less fortunate.
+            <p className="text-green-700 mt-2">
+              We are committed to improving living conditions for vulnerable
+              children. Through our efforts, we provide access to education,
+              health support, and essential resources, ensuring no child is left
+              behind.
             </p>
-            {/* <a
-              href="#"
-              className="text-[#2E3A24] font-semibold mt-3 inline-block"
-            >
-              Read More →
-            </a> */}
+            {/* <button className="mt-4 bg-green-700 text-white px-6 py-2 rounded-full hover:bg-green-800 transition">
+              Learn More
+            </button> */}
           </div>
         </div>
 
@@ -45,24 +40,21 @@ export default function TransformationStories() {
         <div className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center">
           <img
             src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-07.jpg"
-            alt="A Better Education for Everyone"
+            alt="Empowering Women Through Economic Initiatives"
             className="w-full h-64 object-cover rounded-xl"
           />
           <div className="mt-4 text-center">
-            <h3 className="text-xl font-semibold text-[#2E3A24]">
-              A Better Education for Everyone
+            <h3 className="text-xl font-semibold text-green-900">
+              Empowering Women & Communities
             </h3>
-            <p className="text-[#000000a8] mt-2">
-              Our non-profit organisation is dedicated to improving access to
-              education for all. With your support, we can help provide the
-              resources and opportunities needed for success.
+            <p className="text-green-700 mt-2">
+              By training women in income-generating activities and promoting
+              sustainable development projects, we help create self-sufficient
+              communities that thrive for generations.
             </p>
-            {/* <a
-              href="#"
-              className="text-[#2E3A24] font-semibold mt-3 inline-block"
-            >
-              Read More →
-            </a> */}
+            {/* <button className="mt-4 bg-green-700 text-white px-6 py-2 rounded-full hover:bg-green-800 transition">
+              Learn More
+            </button> */}
           </div>
         </div>
       </div>
