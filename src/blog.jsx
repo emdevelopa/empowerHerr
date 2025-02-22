@@ -1,6 +1,6 @@
 export default function TransformationStories() {
   return (
-    <section className="bg-[#ECF5E4] py-16 px-4 md:px-16">
+    <section className="bg-[#fff] py-16 px-4 md:px-16">
       <div className="text-center">
         <h2 className="text-4xl font-bold text-green-900">
           Inspiring Tales of Transformation

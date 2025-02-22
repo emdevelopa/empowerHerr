@@ -1,6 +1,6 @@
 export default function AboutUsSection() {
   return (
-    <section className="bg-[#f9faef] py-16 px-6 md:px-12" id="about">
+    <section className="bg-[#fff] py-16 px-6 md:px-12" id="about">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-12">
         {/* Left Content */}
         <div className="md:w-[40%]">
