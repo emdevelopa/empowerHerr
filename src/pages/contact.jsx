@@ -55,7 +55,7 @@ const Contact = () => {
               <p className="text-gray-700">
                 2972 Example Rd. Santa Ana, Illinois 85486
               </p>
-              <p className="text-gray-700">(603) 555-0123</p>
+              <p className="text-gray-700"> +44 7480 664141</p>
             </div>
 
             <div className="mt-6">

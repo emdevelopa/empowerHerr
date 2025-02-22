@@ -27,22 +27,34 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/about" className="hover:text-green-700 hover:underline">
+                <a
+                  href="/about"
+                  className="hover:text-green-700 hover:underline"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a href="/impact" className="hover:text-green-700 hover:underline">
+                <a
+                  href="/impact"
+                  className="hover:text-green-700 hover:underline"
+                >
                   Impact
                 </a>
               </li>
               <li>
-                <a href="/blog" className="hover:text-green-700 hover:underline">
+                <a
+                  href="/blog"
+                  className="hover:text-green-700 hover:underline"
+                >
                   Blog
                 </a>
               </li>{" "}
               <li>
-                <a href="/contact" className="hover:text-green-700 hover:underline">
+                <a
+                  href="/contact"
+                  className="hover:text-green-700 hover:underline"
+                >
                   Contact
                 </a>
               </li>
@@ -86,7 +98,7 @@ export default function Footer() {
             <p className="mt-3 text-[#5F6D4E]">
               1234 Thornridge Cir. Syracuse, <br />
               Connecticut 56789 <br />
-              (406) 555-0121 <br />
+              +44 7480 664141 <br />
               <a
                 href="mailto:sylvieakwenmalo@gmail.com"
                 className="text-[#2E3A24] hover:text-green-700 hover:underline"
