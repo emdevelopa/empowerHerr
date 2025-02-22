@@ -1,3 +1,4 @@
+import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 import React from 'react';
 
 
@@ -9,10 +10,10 @@ const MobileNav = ({menuOpen}) => {
             <a href="/" className="hover:text-green-400">
               Home
             </a>
-            <a href="#about" className="hover:text-green-400">
+            <a href="/about" className="hover:text-green-400">
               About
             </a>
-            <a href="#impact" className="hover:text-green-400">
+            <a href="/impact" className="hover:text-green-400">
               Impact
             </a>
             <a href="/blog" className="hover:text-green-400">
