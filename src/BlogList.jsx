@@ -1,7 +1,27 @@
-import React from "react";
-import Navbar from "./components/Navbar";
+import React, { useEffect, useState } from "react";
+// import Navbar from "./components/Navbar";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "./utils/firebaseConfig";
+
 
 const BlogList = ({ blogs, onSelect }) => {
+
+   const [blogss, setBlogs] = useState([]);
+
+   useEffect(() => {
+     const fetchBlogs = async () => {
+       const querySnapshot = await getDocs(collection(db, "blogs"));
+       setBlogs(
+         querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
+       );
+     };
+
+     fetchBlogs();
+   }, []);
+  
+  console.log(blogss);
+  
+
   return (
     <>
       {/* <Navbar /> */}

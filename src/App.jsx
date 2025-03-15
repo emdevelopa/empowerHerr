@@ -9,6 +9,7 @@ import { Menu, X } from "lucide-react";
 import Contact from "./pages/contact";
 import AboutUs from "./pages/aboutUs";
 import ImpactPage from "./pages/impact";
+import BlogUpload from "./pages/BlogUpload";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,7 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/impact" element={<ImpactPage />} />
-          {/* <Route path="/register" element={<Register />} /> */}
+          <Route path="/uploadBlog" element={<BlogUpload/>} />
           {/* <Route path="/signin" element={<SignIn />} /> */}
           {/* <Route path="/user/Dashboard" element={<UserPage />} /> */}
         </Routes>
