@@ -27,7 +27,7 @@ const ImpactPage = () => {
       </div>
 
       {/* Vision & Mission Section */}
-      <section className="py-16 px-6 md:px-16 bg-green-50">
+      {/* <section className="py-16 px-6 md:px-16 bg-green-50">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-green-900">
             Vision & Mission
@@ -38,13 +38,13 @@ const ImpactPage = () => {
             and economic opportunities.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* Objectives Section */}
       <section className="py-16 px-6 md:px-16 bg-white">
         <div className="max-w-4xl mx-auto">
           <h3 className="text-2xl font-bold text-green-900 text-center">
-            Our Objectives
+            Our Goals
           </h3>
           <ul className="mt-6 space-y-4">
             <li className="flex items-start">
@@ -87,17 +87,7 @@ const ImpactPage = () => {
       {/* Impact Stories */}
       <Impact />
 
-      {/* Call to Action */}
-      <section className="py-16 px-6 md:px-16 bg-green-900 text-white text-center">
-        <h3 className="text-2xl font-bold">Join Us in Making a Difference</h3>
-        <p className="text-lg mt-4 max-w-3xl mx-auto">
-          Together, we can change lives by ensuring that women and children
-          receive the support, education, and empowerment they need.
-        </p>
-        {/* <button className="mt-6 bg-white text-green-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">
-          Get Involved
-        </button> */}
-      </section>
+    
     </>
   );
 };

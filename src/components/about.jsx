@@ -11,15 +11,17 @@ export default function AboutUsSection() {
             Empowering Lives, Creating Change
           </h2>
           <p className="text-gray-700 mt-4">
-            We are a dedicated organization committed to empowering women and
-            communities through education, vocational training, and sustainable
-            opportunities. Our mission is to create a world where every woman
-            has the tools to thrive, succeed, and inspire future generations.
+            We are a dedicated organization committed to empowering vulnerable
+            women, children, and marginalized communities through education,
+            agriculture, vocational training, community entrepreneurship, and
+            sustainable opportunities.
           </p>
           <p className="text-gray-700 mt-4">
-            Through mentorship, skill-building, and community-driven
-            initiatives, we strive to create lasting change and a brighter
-            future for all.
+            Our goal is to create a world where every vulnerable group and
+            community has the tools to thrive, succeed, and inspire future
+            generations. Through mentorship, skill-building, and
+            community-driven initiatives, we strive to create lasting change and
+            a brighter future for all.
           </p>
         </div>
 
@@ -54,9 +56,9 @@ export default function AboutUsSection() {
         <div className="mb-12">
           <h3 className="text-3xl font-bold text-green-800">Our Vision</h3>
           <p className="text-gray-700 mt-4 max-w-3xl mx-auto">
-            A world where women and communities are empowered with knowledge,
-            skills, and opportunities to shape a future of dignity,
-            independence, and success.
+            A world where women, children, and communities are empowered with
+            knowledge, skills, and opportunities to shape a future that reflects
+            the highest level of dignity, independence, and success.
           </p>
         </div>
 
@@ -64,9 +66,10 @@ export default function AboutUsSection() {
         <div>
           <h3 className="text-3xl font-bold text-green-800">Our Mission</h3>
           <p className="text-gray-700 mt-4 max-w-3xl mx-auto">
-            To provide education, mentorship, and economic opportunities that
-            empower women and underserved communities to break barriers and
-            build sustainable, thriving futures.
+            To provide education, skills, mentorship, resources, and economic
+            opportunities that empower women, children, and underserved
+            communities to break barriers and build sustainable, thriving
+            futures.
           </p>
         </div>
       </div>

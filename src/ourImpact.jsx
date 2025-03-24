@@ -43,18 +43,7 @@ export default function Impact() {
           </div>
         </div>
 
-        <div className="bg-green-600 text-white p-8 rounded-lg mt-12 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-[34px] font-bold text-center md:text-left">
-            Together, We Can Build a Brighter Future
-            <p className="text-sm font-normal mt-2">
-              Your support enables us to continue advocating for vulnerable
-              women and children. Join us in making a difference today!
-            </p>
-          </div>
-          <button className="mt-4 md:mt-0 px-6 py-3 bg-white text-green-600 font-semibold rounded-md hover:bg-gray-100 transition-all">
-            Support Our Mission
-          </button>
-        </div>
+        
       </div>
     </div>
   );

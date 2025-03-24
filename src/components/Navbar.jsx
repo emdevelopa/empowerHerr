@@ -7,7 +7,7 @@ export default function Navbar({ setMenuOpen, menuOpen }) {
     <nav className="flex justify-between items-center px-6 md:px-12 py-4 bg-black text-white">
       <div className="text-2xl font-bold flex items-center">
         {/* <span className="text-white">🌸EmpowerHer</span> */}
-        <img src="logo.jpg" alt="swsw" className="w-[4em] rounded-2xl" />
+        <img src="logof.png" alt="swsw" className="w-[4em] rounded-2xl" />
       </div>
       {/* Desktop Nav */}
       <ul className="hidden md:flex space-x-6">
@@ -15,10 +15,13 @@ export default function Navbar({ setMenuOpen, menuOpen }) {
           <a href="/">Home</a>
         </li>
         <li className="hover:text-green-400 cursor-pointer">
-          <a href="/about">About</a>
+          <a href="/about">About us</a>
         </li>
         <li className="hover:text-green-400 cursor-pointer">
           <a href="/impact">Impact</a>
+        </li>
+        <li className="hover:text-green-400 cursor-pointer">
+          <a href="/connect">Connect with us</a>
         </li>
         <li className="hover:text-green-400 cursor-pointer">
           <a href="/blog">Blog</a>

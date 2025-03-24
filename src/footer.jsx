@@ -43,6 +43,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/connect" className="hover:text-green-400">
+                  Connect with us
+                </a>
+              </li>
+              <li>
                 <a
                   href="/blog"
                   className="hover:text-green-700 hover:underline"
@@ -111,7 +116,9 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="mt-8 flex flex-col md:flex-row items-center justify-between text-[#5F6D4E] text-sm">
-          <p className="text-center">© 2025 Non-Profit Organization. All rights reserved.</p>
+          <p className="text-center">
+            © 2025 Non-Profit Organization. All rights reserved.
+          </p>
 
           {/* Social Icons */}
           <div className="flex space-x-4 mt-4 md:mt-0">

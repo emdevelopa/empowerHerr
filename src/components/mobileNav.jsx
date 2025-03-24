@@ -11,10 +11,13 @@ const MobileNav = ({menuOpen}) => {
               Home
             </a>
             <a href="/about" className="hover:text-green-400">
-              About
+              About us
             </a>
             <a href="/impact" className="hover:text-green-400">
               Impact
+            </a>
+             <a href="/connect" className="hover:text-green-400">
+              Connect with us
             </a>
             <a href="/blog" className="hover:text-green-400">
               Blog

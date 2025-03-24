@@ -1,27 +1,4 @@
-import React, { useEffect, useState } from "react";
-// import Navbar from "./components/Navbar";
-import { collection, getDocs } from "firebase/firestore";
-import { db } from "./utils/firebaseConfig";
-
-
 const BlogList = ({ blogs, onSelect }) => {
-
-   const [blogss, setBlogs] = useState([]);
-
-   useEffect(() => {
-     const fetchBlogs = async () => {
-       const querySnapshot = await getDocs(collection(db, "blogs"));
-       setBlogs(
-         querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
-       );
-     };
-
-     fetchBlogs();
-   }, []);
-  
-  console.log(blogss);
-  
-
   return (
     <>
       {/* <Navbar /> */}
@@ -54,16 +31,30 @@ const BlogList = ({ blogs, onSelect }) => {
               onClick={() => onSelect(blog)}
             >
               <div className="p-4">
-                <img
-                  src="https://images.unsplash.com/photo-1583971663176-dd7180de1b76?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVtYWxlJTIwZW1wb3dlcm1lbnR8ZW58MHx8MHx8fDA%3D"
-                  alt=""
-                  className="rounded-xl"
-                />
+                {blog.mediaUrl.includes("/video/") ? (
+                  <iframe
+                    src={blog.mediaUrl}
+                    width="100%"
+                    height="auto"
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen
+                    className="rounded-lg shadow-md"
+                  />
+                ) : (
+                  <img
+                    src={blog.mediaUrl}
+                    alt="Uploaded"
+                    className="w-full max-h-64 object-cover rounded-lg shadow-md"
+                  />
+                )}
+
                 <h2 className="text-xl font-semibold text-green-800">
                   {blog.title}
                 </h2>
-                <p className="text-gray-500 text-sm">{blog.date}</p>
-                <p className="text-gray-700 mt-2">{blog.excerpt}</p>
+                <p className="text-gray-500 text-sm">
+                  {new Date(blog.createdAt.seconds * 1000).toLocaleDateString()}
+                </p>
+                <p className="text-gray-700 mt-2">{blog.description}</p>
               </div>
             </div>
           ))}
