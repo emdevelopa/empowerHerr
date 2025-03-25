@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="text-2xl font-bold flex items-center">
               {/* <span className="text-black">🌸EmpowerHer</span> */}
-              <img src="logo.jpg" alt="swsw" className="w-[4em] rounded-2xl" />
+              <img src="logof.png" alt="swsw" className="w-[4em] rounded-2xl" />
             </div>
             <p className="text-[#5F6D4E] mt-3">
               The power of giving: Support a cause and make a difference through
@@ -101,14 +101,14 @@ export default function Footer() {
               Contact Info
             </h3>
             <p className="mt-3 text-[#5F6D4E]">
-              1234 Thornridge Cir. Syracuse, <br />
-              Connecticut 56789 <br />
-              +44 7480 664141 <br />
+              <p className="text-gray-70">Mile2 Nkwen, Bamenda</p>
+              <p className="text-gray-70">(237) 650 266 17</p>
+              <p className="text-gray-70">(237) 677 578 349</p>
               <a
                 href="mailto:sylvieakwenmalo@gmail.com"
                 className="text-[#2E3A24] hover:text-green-700 hover:underline"
               >
-                sylvieakwenmalo@gmail.com
+                sylvie@sdmfoundation.info
               </a>
             </p>
           </div>

@@ -7,10 +7,10 @@ const About = () => {
     <>
       {/* <Navbar /> */}
       <div>
-        <div className="relative w-full h-[60vh]">
+        <div className="relative w-full h-[70vh]">
           {/* Background Image */}
           <img
-            src="https://images.unsplash.com/photo-1583971663176-dd7180de1b76?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVtYWxlJTIwZW1wb3dlcm1lbnR8ZW58MHx8MHx8fDA%3D"
+            src="./aboutUs.jpg"
             alt="About Us Header"
             className="w-full h-full object-cover"
           />

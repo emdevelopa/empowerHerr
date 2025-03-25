@@ -23,29 +23,44 @@ export default function AboutUsSection() {
             community-driven initiatives, we strive to create lasting change and
             a brighter future for all.
           </p>
+          <p className="text-gray-700 mt-4">
+            To provide education, skills, mentorship, resources and economic
+            opportunities that empower women, children and underserved
+            communities to break barriers and build sustainable, thriving
+            futures. Programme Pillars We deliver our projects through our core
+            thematic areas of concerns: <br />
+            <span className="text-green-600 text-2xl mr-3">✔</span>Social and
+            Economic Justice
+            <br />
+            <span className="text-green-600 text-2xl mr-3">✔</span>Agriculture
+            <br />
+            <span className="text-green-600 text-2xl mr-3">✔</span>Education
+            <br /> <span className="text-green-600 text-2xl mr-3">✔</span>Human
+            Right Protection
+          </p>
         </div>
 
         {/* Right Image Grid */}
         <div className="md:w-1/2 grid grid-cols-2 gap-4">
           <img
-            src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-0001.jpg"
+            src="./cardimg.jpg"
             alt="Empowerment"
             className="rounded-xl shadow-md"
           />
           <img
-            src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-02.jpg"
+            src="./soc.jpg"
             alt="Community Support"
             className="rounded-xl shadow-md"
           />
           <img
-            src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-03.jpg"
+            src="./edu.jpg"
             alt="Education"
             className="rounded-xl shadow-md"
           />
           <img
-            src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-0004.jpg"
+            src="./agric.jpg"
             alt="Growth"
-            className="rounded-xl shadow-md"
+            className="rounded-xl shadow-md border-2 border-[#cfcfcf]"
           />
         </div>
       </div>
@@ -53,7 +68,7 @@ export default function AboutUsSection() {
       {/* Vision & Mission Section */}
       <div className="max-w-6xl mx-auto mt-16 text-center">
         {/* Vision */}
-        <div className="mb-12">
+        <div className="mb-16">
           <h3 className="text-3xl font-bold text-green-800">Our Vision</h3>
           <p className="text-gray-700 mt-4 max-w-3xl mx-auto">
             A world where women, children, and communities are empowered with
@@ -61,7 +76,6 @@ export default function AboutUsSection() {
             the highest level of dignity, independence, and success.
           </p>
         </div>
-
         {/* Mission */}
         <div>
           <h3 className="text-3xl font-bold text-green-800">Our Mission</h3>
@@ -71,6 +85,60 @@ export default function AboutUsSection() {
             communities to break barriers and build sustainable, thriving
             futures.
           </p>
+        </div>
+
+        {/* Our Team */}
+        <div className="mt-16">
+          <h3 className="text-3xl font-bold text-green-800">Our Team</h3>
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mt-12">
+            {/* CEO IMAGE */}
+            <img
+              src="./ceo.jpg"
+              alt="Sylvie Akwe Malo"
+              className="w-48   rounded-full object-cover shadow-md"
+            />
+            {/* CEO content story */}
+            <div className="text-left">
+              <h4 className="text-2xl font-bold text-green-900">
+                Sylvie Akwe Malo
+              </h4>
+              <p className="text-sm font-medium text-gray-600">
+                Founder/Executive Director
+              </p>
+              <p className="text-gray-700 mt-4">
+                Sylvie Akwe Malo is an educator, social entrepreneur, health &
+                wellness specialist, development professional, community
+                builder, and social mobilizer.
+              </p>
+              <p className="text-gray-700 mt-4">
+                She represents a humble but bigger hope for the emergence of a
+                new and prosperous Africa. Her experience with diverse realities
+                of life has triggered her passion to pursue vision and agenda to
+                better the lives of the marginalized, vulnerable, and oppressed
+                in Cameroon. She founded Stephen and Dora-Mira Foundation to
+                drive interventions and solutions that could unlock
+                opportunities for wealth-creation and quality well-being for the
+                underprivileged in Cameroon.
+              </p>
+              <p className="text-gray-700 mt-4">
+                Originally trained in linguistics and education, Sylvie holds
+                three master's degrees. She studied linguistics at bachelor's
+                and master's degree level at University of Buea before
+                proceeding to International Relations Institute, University of
+                Yaounde to earn a Master's degree in Humanitarian Action and
+                Development Cooperation. She capped it with an MSc in Innovation
+                Management and Entrepreneurship obtained from Bournemouth
+                University, United Kingdom.
+              </p>
+              <p className="text-gray-700 mt-4">
+                In the career space, Sylvie has rendered superlative performance
+                as a teacher, community development practitioner, and social
+                mobilizer over the years. Her push for wider economic and social
+                impacts through transformative programs and projects led her to
+                establish Stephen and Dora-Mira Foundation.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

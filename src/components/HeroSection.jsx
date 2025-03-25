@@ -10,8 +10,10 @@ export default function HeroSection({ menuOpen }) {
       <div
         className="absolute inset-0 bg-cover bg-center opacity-20"
         style={{
-          backgroundImage:
-            'url("https://plus.unsplash.com/premium_photo-1661488569775-2f16dbefca71?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmVtYWxlJTIwZW1wb3dlcm1lbnR8ZW58MHx8MHx8fDA%3D")',
+          backgroundImage: 'url("hero.jpg")',
+          backgroundSize: "cover", // Ensures the image covers the entire element
+          backgroundPosition: "center", // Centers the image
+          backgroundRepeat: "no-repeat", // Prevents the image from repeating
         }}
       ></div>
 

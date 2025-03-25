@@ -16,7 +16,7 @@ export default function TransformationStories() {
         {/* First Story */}
         <div className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center">
           <img
-            src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-06.jpg"
+            src="./child.jpg"
             alt="Providing a Better Life for Vulnerable Children"
             className="w-full h-64 object-cover rounded-xl"
           />
@@ -39,7 +39,7 @@ export default function TransformationStories() {
         {/* Second Story */}
         <div className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center">
           <img
-            src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-07.jpg"
+            src="women.jpg"
             alt="Empowering Women Through Economic Initiatives"
             className="w-full h-64 object-cover rounded-xl"
           />
